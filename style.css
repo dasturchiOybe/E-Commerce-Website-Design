@@ -96,9 +96,11 @@ nav {
   cursor: pointer;
 }
 
-.fa-xmark {
+.fa-solid {
   display: none;
 }
+
+
 
 .hidden {
   display: none;
@@ -225,6 +227,15 @@ h1 {
   line-height: 109%; 
 }
 
+@media (min-width:600px) {
+  .fa-bars:before{
+    display: none;
+  }
+  .nav-links{
+    display: inline-block;
+  }
+}
+
 @media (max-width:380px) {
   .hidden {
     display: flex;
@@ -316,7 +327,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px)  {
   .hero-bottom {
     gap: 20px;
     flex-direction: row;
