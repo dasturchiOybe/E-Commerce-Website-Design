@@ -40,7 +40,7 @@ body{
 
 header {
   background-color: linear-gradient(224deg, #dfdfdf 22.67%, #ececec 86.23%);
-
+  padding-bottom: 80px;
 }
 
 nav {
